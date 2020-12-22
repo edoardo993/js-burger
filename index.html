@@ -6,24 +6,43 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="title">
-      <h1>Create Your Hamburger</h1>
-    </div>
+    <div class="ep-container">
+      <header class="clearfix">
+        <div class="f-l m-l"><h1>Create Your Hamburger</h1></div>
+        <div class="img-burger f-r"><img src="img/"></div>
+      </header>
+      <main>
+        <input id="burger-name" type="text" name="" value="" placeholder="Name Your Burger">
 
-    <div class="hamburger-choises">
-      <input type="text" name="" value="" placeholder="Name Your Burger">
-      <h2>Ingredients</h2>
-      <span>Cheese <input type="checkbox" name="" value=""> add |||</span>
-      <span>Egg <input type="checkbox" name="" value=""> add |||</span>
-      <span>Mustard <input type="checkbox" name="" value=""> add |||</span>
-      <span>Tomato <input type="checkbox" name="" value=""> add |||</span>
-      <span>Lettuce <input type="checkbox" name="" value=""> add |||</span>
-      <span>Ketchup <input type="checkbox" name="" value=""> add</span>
-      <h4>Discount Coupon <input type="text" placeholder="12354ABCDEF"></h4>
-      <button type="button" name="button">Calculate</button>
-      <h3>Your Price </h3>
-    </div>
+        <div class="hamburger-choises clearfix">
+          <h2 class="m-l">Ingredients</h2>
+          <ul class="f-l m-l">
+            <li><img src=""><span>Cheese <input class="check-input" type="checkbox" name="" value="3"> add</span></li>
+            <li><img src=""><span>Egg <input class="check-input" type="checkbox" name="" value="5"> add</span></li>
+            <li><img src=""><span>Mustard <input class="check-input" type="checkbox" name="" value="2"> add</span></li>
+          </ul>
+          <ul class="f-l m-l">
+            <li><img src=""><span>Tomato <input class="check-input" type="checkbox" name="" value="3"> add</span></li>
+            <li><img src=""><span>Lettuce <input class="check-input" type="checkbox" name="" value="4"> add</span></li>
+            <li><img src=""><span>Ketchup <input class="check-input" type="checkbox" name="" value="2"> add</span></li>
+          </ul>
+        </div>
 
+        <div class="coupon f-l m-l">
+          <span>Discount Coupon</span>
+          <input id="add-coupon" type="text" placeholder="12354ABCDEF">
+        </div>
+
+        <div>
+          <button id="ingredients-button" type="button" name="button">Calculate</button>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <h3 class="f-l">Your Price <!--<span id="total"></span>--></h3>
+          <span id="total" class="f-r"></span>
+        </div>
+      </footer>
     <script type="text/javascript" src="js/script.js">
     </script>
   </body>

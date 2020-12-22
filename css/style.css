@@ -1,5 +1,73 @@
+/* UTILITY CLASSES */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0
+}
+
+.ep-container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto
+}
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: ""
+}
+/* end utility classes */
+header {
+  background: #F4BC59;
+  height: 120px
+}
+
+main {
+  background: #fff;
+  padding-bottom: 50px
+}
+
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.m-l {
+  margin-left: 80px
+}
+
+header h1 {
+  line-height: 130px
+}
+
+.hamburger-choises ul {
+  list-style-type: none
+}
+
+#burger-name {
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
+  border: none;
+}
+
+#add-coupon {
+  border: none;
+  background: #FDF5E4;
+  width: 300px;
+  height: 30px
+}
+footer {
+  background: #C3425B;
+  height: 100px
+}
+
+footer h3, footer span {
+  color: #fff;
+  font-size: 25px;
+  line-height: 100px;
+  margin: 0 80px 0 80px
 }
