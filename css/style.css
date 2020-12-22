@@ -17,38 +17,61 @@
   content: ""
 }
 
-.flex {
-  display:flex
+.flex-container {
+  display: flex
 }
 
 .f-l {
-  float: left;
+  float: left
 }
 
 .f-r {
-  float: right;
+  float: right
 }
 
 .m-l {
-  margin-left: 80px
+  margin-left: 60px
 }
 /* end utility classes */
+
+body {
+  background: #FFF3DF
+}
+
 header {
-  background: #F4BC59;
-  height: 120px
+  background: #FDBB40;
+  height: 20vh;
+  position: relative;
 }
 
 main {
   background: #fff;
-  padding-bottom: 50px
+  padding-bottom: 50px;
+  height: 70vh
 }
 
 header h1 {
   line-height: 130px
 }
 
+.img-burger {
+  position: absolute;
+  transform: translate(0, -50%);
+  right: -50px;
+  top: 90px
+}
+
+.hamburger-choises {
+  margin-bottom: 50px
+}
+
+.hamburger-choises li img {
+  display: inline-block;
+}
+
 .hamburger-choises ul {
-  list-style-type: none
+  list-style-type: none;
+  display: inline-block;
 }
 
 #burger-name {
@@ -56,22 +79,50 @@ header h1 {
   width: 300px;
   font-size: 30px;
   border: none;
+  margin: 20px 0 20px 60px
 }
 
 #add-coupon {
   border: none;
   background: #FDF5E4;
   width: 300px;
-  height: 30px
-}
-footer {
-  background: #C3425B;
-  height: 100px
+  height: 25px;
+  border-radius: 7px;
+  margin-left: 15px
 }
 
-footer h3, footer span {
+.calculate-button {
+  justify-content: center;
+}
+
+.total-price {
+  justify-content: space-between;
+}
+
+#ingredients-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  box-shadow: none;
+  background: #FFB245;
+  border-color: #FFB245;
+  border: none;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+footer {
+  background: #C3425B;
+  height: 10vh;
+  align-items: flex-end;
+}
+
+footer span {
   color: #fff;
   font-size: 25px;
-  line-height: 100px;
-  margin: 0 80px 0 80px
+  line-height: 10vh;
+  margin: 0 60px 0 60px;
+  justify-content: space-between;
 }

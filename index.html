@@ -9,19 +9,19 @@
     <div class="ep-container">
       <header class="clearfix">
         <div class="f-l m-l"><h1>Create Your Hamburger</h1></div>
-        <div class="img-burger f-r"><img src="img/"></div>
+        <div class="img-burger f-r"><img src="img/burger-top.png"></div>
       </header>
       <main>
 
         <input id="burger-name" type="text" name="" value="" placeholder="Name Your Burger">
+        <h2 class="m-l">Ingredients</h2>
+        <div class="hamburger-choises flex-container clearfix">
 
-        <div class="hamburger-choises clearfix">
-          <h2 class="m-l">Ingredients</h2>
-          <ul class="f-l m-l">
+          <ul class="m-l">
 
             <li>
-              <label for="cheese">Cheese</label>
-              <img src=""><input type="checkbox" name="" value="3">
+              <!--<img src="img/cheese.svg">--><label for="cheese">Cheese</label>
+              <input type="checkbox" name="" value="3">
             </li>
 
             <li>
@@ -36,7 +36,7 @@
 
           </ul>
 
-          <ul class="f-l m-l">
+          <ul class="m-l">
 
             <li>
               <label for="tomato">Tomato</label>
@@ -57,19 +57,19 @@
 
         </div>
 
-        <div class="coupon f-l m-l">
+        <div class="coupon flex-container m-l">
           <span>Discount Coupon</span>
           <input id="add-coupon" type="text" placeholder="12354ABCDEF">
         </div>
 
-        <div>
-          <button id="ingredients-button" type="button" name="button">Calculate</button>
+        <div class="flex-container calculate-button">
+          <div><button id="ingredients-button" type="button" name="button">CALCULATE</button></div>
         </div>
       </main>
       <footer>
-        <div>
-          <h3 class="f-l">Your Price <!--<span id="total"></span>--></h3>
-          <span id="total" class="f-r">$ 50</span>
+        <div class="flex-container total-price">
+          <div><span class="">Your Price</span></div>
+          <div><span id="total" class=""></span></div>
         </div>
       </footer>
     <script type="text/javascript" src="js/script.js">
