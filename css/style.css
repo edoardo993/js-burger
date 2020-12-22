@@ -6,7 +6,7 @@
 }
 
 .ep-container {
-  width: 1200px;
+  width: 1000px;
   height: 100vh;
   margin: 0 auto
 }
@@ -16,15 +16,9 @@
   display: table;
   content: ""
 }
-/* end utility classes */
-header {
-  background: #F4BC59;
-  height: 120px
-}
 
-main {
-  background: #fff;
-  padding-bottom: 50px
+.flex {
+  display:flex
 }
 
 .f-l {
@@ -37,6 +31,16 @@ main {
 
 .m-l {
   margin-left: 80px
+}
+/* end utility classes */
+header {
+  background: #F4BC59;
+  height: 120px
+}
+
+main {
+  background: #fff;
+  padding-bottom: 50px
 }
 
 header h1 {
