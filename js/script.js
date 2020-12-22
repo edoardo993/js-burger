@@ -25,5 +25,5 @@ calculate.addEventListener("click", function() {
       total = (total * 0.8).toFixed(2)
     }
   }
-  totalHtmlElement.innerText = '$ ' + total
+  totalHtmlElement.innerText = '$ ' + total;
 })
